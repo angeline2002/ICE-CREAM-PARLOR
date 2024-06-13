@@ -61,6 +61,9 @@ The application will start, and you can interact with it via the terminal.
    - Enter a new allergen.
    - Verify that the allergen is added.
 
+5. **Exit**:
+   -Choose option 5
+
 ## SQL Queries or ORM Abstraction
 
 All SQL queries are directly embedded in the functions defined in `functions.py`.

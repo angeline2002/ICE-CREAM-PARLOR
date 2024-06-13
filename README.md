@@ -6,6 +6,8 @@
 
 ### Running Locally
 
+## Clone The Repository From Github or Download all the Files
+
 1. Set up the database:
 
     ```bash
@@ -23,22 +25,7 @@
     ```bash
     python main.py
     ```
-
-### Running with Docker
-
-1. Build the Docker image:
-
-    ```bash
-    docker build -t icecream_parlor .
-    ```
-
-2. Run the Docker container:
-
-    ```bash
-    docker run -it --rm --name icecream_parlor_container icecream_parlor
-    ```
-
-The application will start, and you can interact with it via the terminal.
+    The application will start, and you can interact with it via the terminal.
 
 ## Testing Steps
 
@@ -63,6 +50,22 @@ The application will start, and you can interact with it via the terminal.
 
 5. **Exit**:
    -Choose option 5
+
+### Running with Docker
+
+1. Build the Docker image:
+
+    ```bash
+    docker build -t icecream_parlor .
+    ```
+
+2. Run the Docker container:
+
+    ```bash
+    docker run -it --rm --name icecream_parlor_container icecream_parlor
+    ```
+
+The application will start, and you can interact with it via the terminal.
 
 ## SQL Queries or ORM Abstraction
 
